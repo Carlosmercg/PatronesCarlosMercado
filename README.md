@@ -15,7 +15,7 @@ A continuación se describe brevemente cada proyecto y se indican los requisitos
 ---
 
 ## 📁 Estructura del Repositorio
-/Flyweight_Supabase
+/FlyweightSupabase
 
 /Proxy_Supabase
 
