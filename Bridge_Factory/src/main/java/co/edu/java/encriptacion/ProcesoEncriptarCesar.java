@@ -14,7 +14,7 @@ public class ProcesoEncriptarCesar implements InterfaceEncriptar {
         for (char c : password.toCharArray()) {
             shift += c;
         }
-        shift = shift % 26; // lo reducimos al rango de letras
+        shift = shift % 26;
 
         StringBuilder encrypted = new StringBuilder();
         for (char ch : message.toCharArray()) {

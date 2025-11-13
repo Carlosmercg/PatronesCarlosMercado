@@ -8,12 +8,12 @@ public class FabricaCanciones {
     public static boolean HabilitarFlyweight = true;
 
     private static final Map<String, Cancion> PLAY_CANCION = new HashMap<>();
-    // Mapa auxiliar: nombreCancion -> nombreArtista
+
     private static final Map<String, String> MAPA_CANCION_ARTISTA = new HashMap<>();
 
     private static Long Secuencia = 0L;
 
-    // Se llama una vez al inicializar los arreglos
+
     public static void registrarArtistaCancion(String nombreCancion, String nombreArtista) {
         MAPA_CANCION_ARTISTA.put(nombreCancion, nombreArtista);
     }

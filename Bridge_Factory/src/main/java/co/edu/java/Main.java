@@ -19,16 +19,16 @@ public class Main {
 
             // Clave automática según algoritmo
             if (encriptador.getClass().getSimpleName().contains("AES")) {
-                key = "HG58YZ3CR9123456"; // 16 bytes OK
+                key = "HG58YZ3CR9123456";
             }
             else if (encriptador.getClass().getSimpleName().contains("DES")) {
-                key = "12345678"; // DES requiere 8 bytes
+                key = "12345678";
             }
             else if (encriptador.getClass().getSimpleName().contains("Cesar")) {
-                key = "claveCesar"; // cualquiera
+                key = "claveCesar";
             }
             else {
-                key = null; // SinEncriptar
+                key = null;
             }
 
             System.out.println(" Procesando mensaje usando: " +

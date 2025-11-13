@@ -6,12 +6,12 @@ import java.util.PriorityQueue;
 
 public class MemoryManager {
 
-    private static final int LIMITE_MEMORIA = 200; // antes 5000
+    private static final int LIMITE_MEMORIA = 200;
 
     private static long totalListasGeneradas = 0;
 
     private static PriorityQueue<ListaReproduccion> listasEnMemoria =
-            new PriorityQueue<>(); // ordenadas por uso ASC
+            new PriorityQueue<>();
 
     public static void agregarLista(ListaReproduccion lista) {
 

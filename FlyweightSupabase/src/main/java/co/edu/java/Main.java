@@ -45,7 +45,7 @@ public class Main {
                 lista.addCancion(NombreCanciones[idx]);
             }
 
-            // Simular uso realista (entre 0 y 10)
+
             lista.incrementarUso();
             lista.incrementarUso();
             if (random.nextBoolean()) lista.incrementarUso(); // aleatorio

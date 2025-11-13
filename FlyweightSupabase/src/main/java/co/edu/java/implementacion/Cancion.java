@@ -5,7 +5,7 @@ public class Cancion {
     private Long id;
     private String nombreCancion;
     private Artista artista;
-    private byte[] datosCancion;   // Solo se carga si es necesario en memoria real
+    private byte[] datosCancion;
 
     // Constructor para canciones nuevas (con datos pesados)
     public Cancion(Long id, String nombreCancion, Artista artista) {
