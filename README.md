@@ -16,8 +16,11 @@ A continuación se describe brevemente cada proyecto y se indican los requisitos
 
 ## 📁 Estructura del Repositorio
 /Flyweight_Supabase
+
 /Proxy_Supabase
+
 /Bridge_Factory
+
 README.md
 
 
@@ -44,6 +47,7 @@ config.properties
 
 Con el siguiente contenido básico:
 supabase.url=TU_URL
+
 supabase.key=TU_ANON_KEY
 
 
